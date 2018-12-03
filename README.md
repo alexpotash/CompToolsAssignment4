@@ -1,7 +1,7 @@
 # CompToolsAssignment4
-Script and datafile for Comp Tools Assignment 4
 
-Question 1:
+
+### Question 1:
 
 |Column | Description|
 |---|---|
@@ -25,7 +25,7 @@ Question 1:
 | Other |	Percent cover of other in a 1x1m quadrat around experimental tray. Integer.Percent_Canopy	Percent canopy cover directly above experimental tray measured using a spherical densiometer. Float. |
 
 
-Question 2:
+### Question 2:
 
 2. To normalize the data I will break the data into a GUD table and a Veg Table. This is because the vegetation metrics for each tray are the same as they were only measured once during the season. By making a separate vegetation table I will reduce the redundancy of having 10 vegetation columns repeated for every line.
 
@@ -60,9 +60,9 @@ Percent_Canopy
 Name will be the primary key, because the vegetation at each tray was only measured once. The Name column will also be a foreign key for the GUD table, allowing me to connect the daily GUD data to the environmental conditions at each tray.
 
 
-Question 3 and 4:
+### Question 3 and 4:
 
-# Create SQL database from GUD data
+###### Create SQL database from GUD data
 ```
 from sqlalchemy import create_engine
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey

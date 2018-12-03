@@ -2,10 +2,9 @@
 Script and datafile for Comp Tools Assignment4
 1. Data
 
-Column | Description
-
+|Column | Description|
+|---|---|
 | Site |	Two letter string referring to the name of the exclosure or control site (HP – Holt Pond, GG – Green Grove) |
-
 | Treatment |	Single letter string referring to whether the site is an exclosure (X) or control (C) |
 | Transect |	A 4 character alphanumeric string referring to a 3-tray transect of experimental foraging patches. First two letters refer to site, third letter refers to treatment, and final number refers to the order the treatment was deployed. |
 | Tray |	A single number (1, 2, or 3) that refers to the position of the tray in the transect. “1” is closest to a tree, “2” is 1-3m farther away, and “3” is the farthest from a tree. |

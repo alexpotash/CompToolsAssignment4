@@ -2,7 +2,8 @@
 Script and datafile for Comp Tools Assignment4
 1. Data
 
-
+Column | Description
+-------|--------------------------------------------------------------------------------------------------------------
 | Site |	Two letter string referring to the name of the exclosure or control site (HP – Holt Pond, GG – Green Grove) |
 -------|--------------------------------------------------------------------------------------------------------------
 | Treatment |	Single letter string referring to whether the site is an exclosure (X) or control (C) |

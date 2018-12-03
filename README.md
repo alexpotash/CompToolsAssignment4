@@ -63,6 +63,7 @@ Name will be the primary key, because the vegetation at each tray was only measu
 Question 3 and 4:
 
 # Create SQL database from GUD data
+```
 from sqlalchemy import create_engine
 from sqlalchemy import Table, Column, Integer, String, MetaData, ForeignKey
 from sqlalchemy import DateTime, Boolean
@@ -94,7 +95,6 @@ except:
                 Column('C_GUD', Numeric)
                )
 
-# Same for Flights table.
 try:
     Veg=Table('Veg', metadata, autoload=True)
 except:
@@ -114,8 +114,6 @@ except:
                 )
 
 metadata.create_all(engine)
-
-# The code above creates the framework for an SQL database.
 
 conn = engine.connect()
 
@@ -157,5 +155,5 @@ for Line in reader:
                             Other = Line['Other'],
                             Bare = Line['Bare'],
                             Percent_Canopy = Line['Percent_Canopy']
-
+```
 
